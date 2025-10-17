@@ -66,4 +66,4 @@ docker-compose run web python manage.py createsuperuser
 🧑‍💻 Author
 
 Created by: Pasha Ismailovi
-Built with ❤️ using Django REST Framework
+Built with ❤️ using Django REST
