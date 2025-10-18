@@ -3,5 +3,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('games.urls')),
+    path('api/games/', include('games.urls')),       # თამაშების API
+    path('api/accounts/', include('accounts.urls')), # მომხმარებელთა API + ავტორიზაცია
 ]
