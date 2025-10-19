@@ -1,0 +1,17 @@
+2025-10-19 21:22:18,176 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 21:24:50,578 [INFO] django.utils.autoreload: C:\Users\User\PycharmProjects\gamereviews\games\views.py changed, reloading.
+2025-10-19 21:24:52,024 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 21:30:25,378 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 21:35:17,685 [INFO] django.utils.autoreload: C:\Users\User\PycharmProjects\gamereviews\gamereviews\settings.py changed, reloading.
+2025-10-19 21:35:21,177 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 21:35:23,884 [INFO] django.utils.autoreload: C:\Users\User\PycharmProjects\gamereviews\gamereviews\settings.py changed, reloading.
+2025-10-19 21:35:25,130 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 21:35:39,311 [INFO] django.utils.autoreload: C:\Users\User\PycharmProjects\gamereviews\gamereviews\settings.py changed, reloading.
+2025-10-19 21:35:43,652 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 21:35:45,931 [WARNING] django.request: Not Found: /
+2025-10-19 21:35:46,123 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-19 21:35:52,493 [WARNING] django.security.SuspiciousSession: Session data corrupted
+2025-10-19 21:35:52,602 [WARNING] django.security.SuspiciousSession: Session data corrupted
+2025-10-19 21:35:57,719 [WARNING] django.security.SuspiciousSession: Session data corrupted
+2025-10-19 21:38:06,741 [WARNING] django.request: Unauthorized: /api/accounts/
+2025-10-19 21:38:09,910 [WARNING] django.request: Unauthorized: /api/accounts/
