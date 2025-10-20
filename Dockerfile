@@ -1,13 +1,11 @@
 # Base image
 FROM python:3.11-slim
 
-# Set workdir
+# Set work directory
 WORKDIR /app
 
-# Copy requirements
+# Copy requirements and install
 COPY requirements.txt .
-
-# Install dependencies
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
@@ -18,4 +16,4 @@ COPY . .
 EXPOSE 8000
 
 # Run server
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["gunicorn", "gamereviews.wsgi:application", "--bind", "0.0.0.0:8000"]
