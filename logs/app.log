@@ -15,3 +15,67 @@
 2025-10-19 21:35:57,719 [WARNING] django.security.SuspiciousSession: Session data corrupted
 2025-10-19 21:38:06,741 [WARNING] django.request: Unauthorized: /api/accounts/
 2025-10-19 21:38:09,910 [WARNING] django.request: Unauthorized: /api/accounts/
+2025-10-19 18:43:11,422 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 18:44:28,126 [WARNING] django.request: Not Found: /
+2025-10-19 18:44:28,376 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-19 18:44:31,989 [WARNING] django.request: Not Found: /
+2025-10-19 18:44:32,272 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-19 18:45:03,397 [WARNING] django.request: Not Found: /
+2025-10-19 18:45:04,002 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-19 18:47:02,720 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 18:48:12,293 [WARNING] django.request: Not Found: /
+2025-10-19 18:48:13,020 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-19 18:48:32,903 [WARNING] django.request: Unauthorized: /api/accounts/
+2025-10-19 18:48:35,811 [WARNING] django.request: Unauthorized: /api/accounts/
+2025-10-19 18:48:40,942 [WARNING] django.request: Unauthorized: /api/accounts/
+2025-10-19 18:48:50,542 [WARNING] django.request: Not Found: /
+2025-10-19 18:48:51,050 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-20 18:51:43,196 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 18:51:51,130 [WARNING] django.request: Not Found: /
+2025-10-20 18:51:51,518 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-20 18:54:33,376 [WARNING] django.request: Not Found: /
+2025-10-20 18:55:20,412 [WARNING] django.request: Unauthorized: /api/accounts/
+2025-10-20 18:55:24,834 [WARNING] django.request: Unauthorized: /api/accounts/
+2025-10-20 19:09:47,612 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 19:09:50,359 [WARNING] django.request: Not Found: /
+2025-10-20 19:09:51,123 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-20 19:11:32,571 [WARNING] django.request: Not Found: /
+2025-10-20 19:11:40,750 [WARNING] django.request: Not Found: /api/users/users/
+2025-10-20 19:11:57,093 [WARNING] django.request: Unauthorized: /api/accounts/
+2025-10-20 15:17:59,851 [INFO] django.utils.autoreload: /app/gamereviews/settings.py changed, reloading.
+2025-10-20 15:18:02,381 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 15:18:14,985 [INFO] django.utils.autoreload: /app/users/models.py changed, reloading.
+2025-10-20 15:18:16,114 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 15:18:42,825 [INFO] django.utils.autoreload: /app/gamereviews/settings.py changed, reloading.
+2025-10-20 15:18:44,061 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 15:22:52,998 [INFO] django.utils.autoreload: /app/gamereviews/settings.py changed, reloading.
+2025-10-20 15:22:54,582 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 15:23:13,813 [INFO] django.utils.autoreload: /app/gamereviews/settings.py changed, reloading.
+2025-10-20 15:23:16,147 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 15:26:48,559 [INFO] django.utils.autoreload: /app/accounts/serializers.py changed, reloading.
+2025-10-20 15:26:49,678 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 15:28:17,237 [INFO] django.utils.autoreload: /app/accounts/models.py changed, reloading.
+2025-10-20 15:28:18,205 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 19:29:58,857 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 19:50:58,342 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 19:51:07,888 [WARNING] django.request: Not Found: /
+2025-10-20 19:51:08,385 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-20 19:52:46,383 [WARNING] django.request: Unauthorized: /api/accounts/
+2025-10-20 20:05:48,870 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 20:11:27,095 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 20:11:56,089 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 20:12:42,283 [INFO] django.utils.autoreload: C:\Users\User\PycharmProjects\gamereviews\gamereviews\settings.py changed, reloading.
+2025-10-20 20:12:43,663 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 20:13:10,948 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 20:14:21,061 [INFO] django.utils.autoreload: C:\Users\User\PycharmProjects\gamereviews\gamereviews\settings.py changed, reloading.
+2025-10-20 20:14:23,232 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 20:14:46,450 [INFO] django.utils.autoreload: C:\Users\User\PycharmProjects\gamereviews\gamereviews\settings.py changed, reloading.
+2025-10-20 20:14:47,540 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 20:15:20,467 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 20:19:23,330 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 20:19:30,796 [WARNING] django.request: Not Found: /
+2025-10-20 20:19:31,411 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-20 20:19:42,430 [WARNING] django.request: Not Found: /api/schema/ [name='schema']
+2025-10-20 20:20:16,669 [WARNING] django.request: Not Found: /api/docs/ [name='swagger-ui']
+2025-10-20 20:22:10,872 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 20:22:25,951 [WARNING] django.request: Not Found: /

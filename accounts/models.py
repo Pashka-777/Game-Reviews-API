@@ -40,21 +40,24 @@ class User(AbstractUser):
     recovery_question = models.CharField(max_length=255, blank=True, null=True)
     _recovery_answer = models.CharField(max_length=128, blank=True, null=True)
 
-    USERNAME_FIELD = "email"  # email იქნება მთავარი იდენტიფიკატორი
-    REQUIRED_FIELDS = []  # სხვა ველები საჭირო არაა
+    USERNAME_FIELD = "email"
+    REQUIRED_FIELDS = []
 
-    objects = CustomUserManager()  # აუცილებელია create_user / create_superuser
+    objects = CustomUserManager()
 
+    # ✅ Case-insensitive შენახვა
     def set_recovery_answer(self, raw):
         if raw:
-            self._recovery_answer = make_password(raw)
+            normalized = raw.strip().lower()  # lowercase + space clean
+            self._recovery_answer = make_password(normalized)
         else:
             self._recovery_answer = None
 
+    # ✅ Case-insensitive შემოწმება
     def check_recovery_answer(self, raw):
-        if not self._recovery_answer:
+        if not self._recovery_answer or not raw:
             return False
-        return check_password(raw, self._recovery_answer)
+        return check_password(raw.strip().lower(), self._recovery_answer)
 
     def __str__(self):
         return self.email
